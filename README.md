@@ -1,5 +1,5 @@
 # XRichText
-[![](https://jitpack.io/v/sendtion/XRichText.svg)](https://jitpack.io/#sendtion/XRichText)
+[![](https://jitpack.io/v/SunnyQjm/XRichText.svg)](https://jitpack.io/#SunnyQjm/XRichText)
 
 一个Android富文本类库，支持图文混排，支持编辑和预览，支持插入和删除图片。
 
