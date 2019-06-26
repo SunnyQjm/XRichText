@@ -40,7 +40,7 @@ allprojects {
 }
 
 dependencies {
-    implementation 'com.github.sendtion:XRichText:1.9.1'
+    implementation 'com.github.sendtion:XRichText:1.9.2-beta'
 }
 ```
 
@@ -48,7 +48,7 @@ dependencies {
 Glide版本为4.9.0，依赖于28版本库，如果你用的为低版本，同样的处理方式。
 使用方式：
 ```
-implementation ('com.github.sendtion:XRichText:1.9.1') {
+implementation ('com.github.sendtion:XRichText:1.9.2-beta') {
     exclude group: 'com.android.support'
     exclude group: 'com.github.bumptech.glide' //当你的项目使用Glide4.0以下版本时建议添加此项
 }
@@ -170,6 +170,9 @@ tv_note_content.setOnRtImageClickListener(new RichTextView.OnRtImageClickListene
 ### 具体的使用方式，请参考Demo代码。
 
 ### 更新历史
+
+###  v1.9.2-beta
+- 迁移到AndroidX
 
 ###  v1.9.1  2019.04.30
 - 图片点击事件接口返回点击的View
